@@ -48,11 +48,10 @@ header {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	top: -80px;
+	top: -95px;
 }
 
 h2 {
-	word-spacing: 200px;
 	font-family: "Geometr415 Blk BT";
 	font-size: 35px;
 	text-transform: uppercase;
@@ -62,6 +61,22 @@ h2 {
 	position: relative;
 }
 
-.words {
+.words_1 {
 	padding-top: 50px;
+	padding-right: 10px;
+}
+
+.words_2 {
+	padding-top: 50px;
+	padding-left: 10px;
+}
+
+.cover {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.language {
+	padding-top: 40px;
+	padding-right: 700px;
 }

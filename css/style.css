@@ -81,38 +81,37 @@ h2 {
 	padding-top: 35px;
 }
 
-
 .d input {
 	background-color: black;
-	outline: 0;
 	height: 30px;
 	width: 115px;
 	border-radius: 10px;
+	border:none;
 	font-family: "Geometr415 Blk BT";
 	font-size: 20px;
 	color:white;
+	padding-top: 7px;
+	padding-left: 10px;
 }
 
 .d button {
 	background-color: black;
 	border-radius: 10px;
 	border: none;
+	float: left;
+	padding-top: 7px;
 }
 
 .d button:before {
 	content: url(../img/heart.png);
 }
 
-
-
-
 .no_interval{
 	background-color: black;
-	height: 40px;
+	height: 45px;
 	width: 175px;
 	margin-top: 45px;
 	border-radius: 10px;
-
 }
 
 

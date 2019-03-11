@@ -234,6 +234,11 @@ hr {
 
 
 /* SLIDER */
+
+main{
+padding-top: 15px;
+}
+
 .slider-holder {
 	margin-left: auto;
 	margin-right: auto;
@@ -287,24 +292,3 @@ hr {
 	border-radius: 5px;
 	background-color: #993333;
 }
-
-
-
-
-
-
-/* .left li a{
-	border-top: 7px solid #993333;
-} */
-
-/* .adv_img {
-	width: 100%;
-  height: 700px;
-  background-image: url(../img/main_D.jpg);
-  background-repeat: no-repeat;
-	background-position: top right;
-	margin-top: 20px;
-} */
-	/* display: inline-block;
-	margin-top: 20px; */
-

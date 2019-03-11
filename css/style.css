@@ -164,7 +164,8 @@ a.rollover_bel {
 	justify-content: space-around;
 	width: 40%;
 	float: left;
-	padding-left: 60px;
+	padding-left: 70px;
+	text-transform: uppercase;
 }
 
 .right {
@@ -173,6 +174,7 @@ a.rollover_bel {
 	width: 40%;
 	float: right;
 	padding-right: 60px;
+	text-transform: uppercase;
 }
 
 .l_1 {
@@ -205,13 +207,11 @@ a.rollover_bel {
  border: 2px solid white;
 }
 
-
-
 li {
 	position: relative;
 	margin: auto;
 	font-family: "Geometr415 Blk BT";
-	font-size: 30px;
+	font-size: 24px;
 	border-top: 2px;
 }
 
@@ -222,15 +222,101 @@ li a {
 }
 
 li a:hover {
-	font-size: 36px;
+	font-size: 30px;
 	color: #993333;
 }
 
 hr {
 	height: 5px;
 	background-color: black;
-	margin-top: 45px;
+	margin-top: 40px;
 }
+
+
+/* SLIDER */
+
+#slider { /*положение слайдера*/
+position: relative;
+text-align: center;
+top: 10px;
+margin: auto;
+}
+
+#slider article { /*изображения справа друг от друга*/
+	width: 50%;
+	float: left;
+}
+
+#slider .image { /*общий размер блока с изображениями*/
+	width: 50%;
+	line-height: 0;
+}
+
+#overflow { /*все, что за пределами этого блока*/
+	width: 100%;
+	overflow: hidden;
+}
+
+article img { /*размер изображений слайдера*/
+	width: 100%;
+}
+
+#desktop:checked ~ #slider {
+	max-width: 960px;
+}
+
+label, a { /*наводим на переключатель - курсор рука*/
+	cursor: pointer;
+}
+
+#switch1:checked ~ #slider .image {
+	margin-left: 0;
+}
+
+
+#switch2:checked ~ #slider .image {
+	margin-left: -100%
+}
+
+#switch3:checked ~ #slider .image {
+	margin-left: -200%;
+}
+
+#controls {
+	margine: -25% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+
+#active label {
+	border-radius: 10px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#active { /*блок с переключателями*/
+	margine: 23%  0 0;
+	text-align: center;
+	}
+
+#active label:hover {
+	background: #76c8ff;
+	border-color: #777 !important;
+}
+
+#switch:checked ~ #active label:nth-child(1),
+#switch:checked ~ #active label:nth-child(2),
+#switch:checked ~ #active label:nth-child(3) {
+background-color: #18a3dd;
+border-color: #18a3dd !important;
+}
+
+#slides .image{
+	transition: all 800ms cubic-bezier (0.770, 0.000, 0.175, 1000);
+}
+
 
 /* .left li a{
 	border-top: 7px solid #993333;

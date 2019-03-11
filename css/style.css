@@ -1,5 +1,4 @@
 /* FONTS */
-
 @font-face {
 	font-family: "Geometr415 Blk BT";
 	src: url(../fonts/TT0524M_.TTF);
@@ -135,9 +134,21 @@ li {
 	position: relative;
 	margin: auto;
 	font-family: "Geometr415 Blk BT";
+	font-size: 30px;
 }
 
 li a {
 	text-decoration: none;
 	color: black;
+	/* transition: .2s linear; */
+}
+
+li a:hover {
+	font-size: 36px;
+}
+
+hr {
+	height: 5px;
+	background-color: black;
+	margin-top: 45px;
 }

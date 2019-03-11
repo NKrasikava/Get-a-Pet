@@ -75,6 +75,7 @@ h2 {
 	display: flex;
 	justify-content: space-around;
 	position: relative;
+	height: 170px;
 }
 
 .language {
@@ -114,27 +115,29 @@ h2 {
 	border-radius: 10px;
 }
 
-
-
-/* 
-
-,
- 
-  
+.left {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	float: left;
+	padding-left: 15px;
 }
-.d input {
-  padding-left: 15px;
-  padding-top: 50px;
+
+.right {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	float: right;
+	padding-right: 15px;
 }
-.d button {
-  
-  
-  top: 0;
-  right: 0;
-  cursor: pointer;
+
+li {
+	position: relative;
+	margin: auto;
+	font-family: "Geometr415 Blk BT";
 }
-.d button:before {
-  
- 
-  
-} */
+
+li a {
+	text-decoration: none;
+	color: black;
+}

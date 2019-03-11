@@ -158,12 +158,13 @@ a.rollover_bel {
 
 
 /* NAVIGATION */
+
 .left {
 	display: flex;
 	justify-content: space-around;
 	width: 40%;
 	float: left;
-	padding-left: 50px;
+	padding-left: 60px;
 }
 
 .right {
@@ -171,8 +172,40 @@ a.rollover_bel {
 	justify-content: space-around;
 	width: 40%;
 	float: right;
-	padding-right: 50px;
+	padding-right: 60px;
 }
+
+.l_1 {
+	width: 90px;
+ border: 2px solid white;
+}
+
+.l_2 {
+	width: 90px;
+ border: 2px solid white;
+}
+
+.l_3 {
+	width: 90px;
+ border: 2px solid white;
+}
+
+.r_1 {
+	width: 90px;
+ border: 2px solid white;
+}
+
+.r_2 {
+	width: 90px;
+ border: 2px solid white;
+}
+
+.r_3 {
+	width: 90px;
+ border: 2px solid white;
+}
+
+
 
 li {
 	position: relative;
@@ -185,7 +218,7 @@ li {
 li a {
 	text-decoration: none;
 	color: black;
-	/* transition: .2s linear; */
+	transition: .1s linear;
 }
 
 li a:hover {
@@ -199,13 +232,17 @@ hr {
 	margin-top: 45px;
 }
 
-.adv_img {
+/* .left li a{
+	border-top: 7px solid #993333;
+} */
+
+/* .adv_img {
 	width: 100%;
   height: 700px;
   background-image: url(../img/main_D.jpg);
   background-repeat: no-repeat;
 	background-position: top right;
 	margin-top: 20px;
-}
+} */
 	/* display: inline-block;
 	margin-top: 20px; */

@@ -1,4 +1,5 @@
 /* FONTS */
+
 @font-face {
 	font-family: "Geometr415 Blk BT";
 	src: url(../fonts/TT0524M_.TTF);
@@ -17,6 +18,7 @@
 	src: url(../fonts/VERDANA.woff)
 }
 
+
 /* GENERAL */
 html {
     width: 100%;
@@ -26,12 +28,14 @@ html {
     margin: auto;
 }
 
+
 /* HEADER */
 header {
 	display: block;
 	width: 100%;
 	height: 200px;
 }
+
 
 /* LOGO PART */
 .black_box {
@@ -77,11 +81,48 @@ h2 {
 	height: 170px;
 }
 
+
+/* LANGUAGE BUTTONS */
+
 .language {
 	padding-top: 35px;
 }
 
+/* Bel */
+a.rollover_bel {
+	background: url(../img/Bel.png);
+	display: inline-block;
+	width: 60px;
+	height: 62px;
+ }
+  a.rollover_bel:hover {
+	background: url(../img/Bel_2.png);
+ }
 
+/* Rus */
+ a.rollover_rus {
+	background: url(../img/Rus.png);
+	display: inline-block;
+	width: 60px;
+	height: 62px;
+ }
+  a.rollover_rus:hover {
+	background: url(../img/Rus_2.png);
+ }
+
+/* Eng */
+ a.rollover_eng {
+	background: url(../img/Eng.png);
+	display: inline-block;
+	width: 60px;
+	height: 62px;
+ }
+  a.rollover_eng:hover {
+	background: url(../img/Eng_2.png);
+ }
+
+
+ /* SEARCH */
 .d input {
 	background-color: black;
 	height: 30px;
@@ -115,6 +156,8 @@ h2 {
 	border-radius: 10px;
 }
 
+
+/* NAVIGATION */
 .left {
 	display: flex;
 	justify-content: space-around;
@@ -147,6 +190,7 @@ li a {
 
 li a:hover {
 	font-size: 36px;
+	color: #993333;
 }
 
 hr {

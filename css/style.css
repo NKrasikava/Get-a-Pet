@@ -218,15 +218,104 @@ hr {
 	margin-top: 40px;
 }
 
+main {
+	width: 100%;
+	padding-top: 20px;
+	}
+
 
 /* SLIDER */
 
-main{
-width: 100%;
-padding-top: 20px;
-}
+#contenedor ul{
+	  display: block;
+	  margin-top: 700px;
+	  padding: 0;
+  }
 
-.slider-holder {
+  #contenedor li {
+	  display: inline-block;
+  }
+
+  
+  #contenedor{
+	  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+	  width:100%;
+	  height: 650px;
+	  margin: 20px auto 0 auto;
+	  overflow:hidden;
+	  position: relative;
+  }
+  #slider{
+	  width:100%;
+	  height: 650px;
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+	-webkit-backface-visibility: hidden;
+  }
+  #slider div{
+	  background: rgba(0,0,0,.5);
+	  position: absolute;
+	  padding: 7px;
+	  bottom: 2px;
+	  left: 0px;
+	  width: 100%;
+  }
+  
+  #slider li:nth-child(1){
+	  position: absolute;
+	  top: 0px;
+	  left: 0px;
+  }
+  #slider li:nth-child(2){
+	  position: absolute;
+	  top: 0px;
+	  left: 600px;
+  }
+  #slider li:nth-child(3){
+	  position: absolute;
+	  top: 0px;
+	  left: 1200px;
+  }
+  #slider li:nth-child(4){
+	  position: absolute;
+	  top: 0px;
+	  left: 1800px;
+  }
+  
+  .mini{
+	  -webkit-filter: grayscale(100%);
+	  cursor: ew-resize;
+	  float: left;
+	  margin-top: 200px;
+	  width: 25%;
+	  transition: all .5s linear;
+  }
+  
+  .mini:hover{
+	  -webkit-filter: grayscale(0%);
+  }
+  
+  #contenedor div:nth-child(1):hover ~ #slider{
+	transform: translateX(0px) translateZ(0px);
+	  -webkit-filter: grayscale(0%);
+  }
+  #contenedor div:nth-child(2):hover ~ #slider{
+	transform: translateX(-600px) translateZ(0px);
+	  -webkit-filter: grayscale(0%);
+  }
+  #contenedor div:nth-child(3):hover ~ #slider{
+	transform: translateX(-1200px) translateZ(0px);
+	  -webkit-filter: grayscale(0%);
+  }
+  #contenedor div:nth-child(4):hover ~ #slider{
+	transform: translateX(-1800px) translateZ(0px);
+	  -webkit-filter: grayscale(0%);
+  }
+
+  
+
+
+/* .slider-holder {
 	margin: 0 auto;
 	text-align: center;
 	overflow: hidden;
@@ -281,7 +370,7 @@ padding-top: 20px;
 
 .slider-change:hover {
 	background-color: #993333;
-}
+} */
 
 
 /* GALLERY */

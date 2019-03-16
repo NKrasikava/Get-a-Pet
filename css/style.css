@@ -372,8 +372,7 @@ h1 {
 
 .topics{
 	width: 100%;
-    display: table;
-	font-size: 20px;
+    display: block;
 	margin: auto;
 	background-color: black;
 	}
@@ -501,7 +500,7 @@ label {
 
 /*********************************************** MEDIA ************************************************/
 
-	@media screen and (max-width: 1346px) {
+@media screen and (max-width: 1346px) {
 html  {
 	 width: 1180px;
 }
@@ -514,6 +513,7 @@ html  {
 		margin-top: 10px;
 	}
 }
+
 
 @media screen and (max-width: 1180px) {
 html  {
@@ -535,7 +535,7 @@ html  {
 	}
 
 h3 {
-	font-size: 30px;
+	font-size: 26px;
 	}
 
 #friend {
@@ -544,4 +544,32 @@ h3 {
 	height: 23px;
 	}
 
+.slider {
+		height: 375px; 
+	}
+	
+h4 {
+		font-size: 24px;
+	}
+	
+p {
+		font-size: 18px;
+	}
+
+footer {
+	font-family: "Verdana";
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: bold;
+}
+	
+#dynamic-input {
+	font-size: 10px;
+	}
+	
+.copyright p {
+	font-size: 14px;
+	}
 }

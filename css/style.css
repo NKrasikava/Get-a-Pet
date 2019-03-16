@@ -227,10 +227,10 @@ main {
 /* SLIDER */
 
 .slider {
-    position: relative   ;
+    position: relative;
     width: 100% ; 
     height:650px ; 
-    overflow: hidden
+    overflow: hidden;
 }
 
 span {
@@ -247,83 +247,82 @@ span {
 }
 
 span.active {
-     opacity: 1
+     opacity: 1;
 }
 
 @keyframes one {
     0% 
     { 
-         opacity:  1
+         opacity:  1;
     }
     25% {
-         opacity:  0
+         opacity:  0;
     }
     50% {
-           opacity: 0 
+           opacity: 0; 
     }
     75%  {
-         opacity:  0 
+         opacity:  0; 
     }
     100% { 
-          opacity:  1
+          opacity:  1;
     }
 }
+
 @keyframes two {
      
     25% {
-         opacity:  1 
+         opacity:  1; 
     }
     50% {
-           opacity: 0
+           opacity: 0;
     }
     75%  {
-         opacity:  0 
+         opacity:  0; 
     }
     100% { 
-          opacity:  0 
+          opacity:  0; 
     }
 }
 
 @keyframes three {
-    0% {
-        opacity: 0
-    }
+  
     25% {
-         opacity:  0 
-    }
-    50% {
-           opacity: 0 
-    }
-    75%  {
-         opacity:  1 
-    }
-    100% { 
-          opacity: 0 
-    }
+		opacity:  0; 
+   }
+   50% {
+		  opacity: 1; 
+   }
+   75%  {
+		opacity: 0; 
+   }
+   100% { 
+		 opacity:  0;
+   }
 }
 
 .slider span.active {
     animation-name: one;
-    animation-duration:10s;
+    animation-duration: 10s;
     animation-delay: 0s;
-    animation-iteration-count: infinite ;
-    animation-timing-function:ease-in-out
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .slider span:nth-of-type(2) {
     animation-name: two;
     animation-duration: 10s;
     animation-delay: 0s;
-    animation-iteration-count: infinite ;
-    animation-timing-function:ease-in-out
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .slider span:last-of-type {
     animation-name: three;
     animation-duration:10s;
     animation-delay: 0s;
-    animation-iteration-count: infinite ;
-    animation-timing-function:ease-in-out
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 

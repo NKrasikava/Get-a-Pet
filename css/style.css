@@ -487,14 +487,13 @@ label {
 
 /*  MEDIA */
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1346px){
 	
-	span {
-		text-align: center; 
-		opacity: 0; 
-		width: 100%;
-		position: absolute; 
-		height: auto;
-		z-index: 2;
+	.slider {
+		position: relative;
+		width: 1180px; 
+		height: 435px; 
+		overflow: hidden;
+		margin-top: 10px;
 	}
 }

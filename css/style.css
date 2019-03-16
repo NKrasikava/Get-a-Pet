@@ -123,6 +123,7 @@ a.rollover_bel {
 
 
  /* SEARCH */
+
 .d input {
 	background-color: black;
 	height: 30px;
@@ -222,12 +223,12 @@ li a {
 }
 
 li a:hover {
-	font-size: 30px;
+	font-size: 28px;
 	color: #993333;
 }
 
 hr {
-	height: 5px;
+	height: 10px;
 	background-color: black;
 	margin-top: 40px;
 }
@@ -236,15 +237,14 @@ hr {
 /* SLIDER */
 
 main{
-padding-top: 15px;
+padding-top: 20px;
 }
 
 .slider-holder {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
+	margin: 0 auto;
 	text-align: center;
 	overflow: hidden;
+	height: 650px;
 }
 
 .image-holder {
@@ -290,6 +290,7 @@ padding-top: 15px;
 	width: 10px;
 	border-radius: 5px;
 	background-color: rgb(151, 151, 151);
+	margin-bottom: 15px;
 }
 
 .slider-change:hover {
@@ -303,6 +304,8 @@ padding-top: 15px;
 	width: 100%;
 	height: 250px;
 	background-image: linear-gradient(to right, white 20%, #eddac5, #a8a9a8);
+  box-shadow: inset rgba(0,0,0,.6) 0 -3px 8px, inset rgba(252,255,255,.7) 0 3px 8px,
+  rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 
 .block {
@@ -322,7 +325,7 @@ h4 {
 }
 
 #friend {
-	padding-left: 20px;
+	padding-left: 15px;
 }
 
 .container {
@@ -334,6 +337,7 @@ h4 {
 .dog {
 	padding: 15px 10px;
 }
+
 
 /* MAIN PAGE */
 
@@ -403,4 +407,76 @@ p {
 	height: 62px;
 	padding-right: 70px;
 	padding-top: 155px;
-   }
+	 }
+	 
+	 /* FOOTER */
+
+footer {
+	width: 100%;
+	height: 350px;
+	background-color: black;
+	font-family: "Geometr415 Blk BT";
+	color: white;
+	margin-top: 0;
+}
+
+.footer_nav {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.footer_nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer_nav li a:hover {
+	color:  #dea254;
+}
+
+.footer_menu {
+	padding-top: 30px;
+}
+
+.footer_items {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding-bottom: 60px;
+	position: relative;
+	margin-left: 10px;
+}
+
+.footer_items li a {
+	font-family: "Verdana";
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	float: left;
+	padding-top: 10px;
+}
+
+.footer_items li a:hover {
+	color:  #dea254;
+}
+
+.f_item2 {
+	padding-right: 20px;
+}
+
+.social {
+	padding-left: 75px;
+}
+
+.copyright p {
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	background-color: #993333;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 15px;
+	color: white;
+}

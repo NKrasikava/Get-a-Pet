@@ -77,6 +77,9 @@ h2 {
 	height: 170px;
 }
 
+.cover_adopt {
+	display: none;
+}
 
 /* LANGUAGE BUTTONS */
 
@@ -120,7 +123,7 @@ a.rollover_bel {
 
  /* SEARCH */
 
-.d input {
+.search input {
 	background-color: black;
 	height: 25px;
 	width: 110px;
@@ -133,7 +136,7 @@ a.rollover_bel {
 	padding-left: 10px;
 }
 
-.d button {
+.search button {
 	background-color: black;
 	border-radius: 10px;
 	border: none;
@@ -141,7 +144,7 @@ a.rollover_bel {
 	padding-top: 7px;
 }
 
-.d button:before {
+.search button:before {
 	content: url(../img/heart.png);
 }
 
@@ -588,66 +591,45 @@ header {
 	height: 215px;
 }
 
-.topmenu, .word_1, .word_2 {
+.cover {
 	display: none;
 }
 
-.black_box {
-	display:none;
-} 
-
-.cover {
-	display: flex;
-	justify-content: flex-end;
-	height: 100%;
-	padding-right: 35px;
+.topmenu {
+	display: none;
 }
 
-.language {
-	padding-right: 35px;
+.cover_adopt {
+	display: block;
+}
+
+.menu_adopt {
+	display: block;
+	color: black;
+	font-size: 70px;
+	font-family: "Geometr415 Blk BT";
+	padding-left: 400px;
 }
 
 .pic {
 	display: inline;
-	position:absolute;
+	position: absolute;
 	top: 10px;
 	left: 20px;
 }
 
-
-
-.d input {
-	background-color: black;
-	height: 25px;
-	width: 110px;
-	border-radius: 10px;
-	border:none;
-	font-family: "Geometr415 Blk BT";
-	font-size: 20px;
-	color:white;
-	padding-top: 7px;
-	padding-left: 10px;
+.language {
+	padding-right: 35px;
+	width: 30;
+	height: 30%;
+	padding-left: 300px;
 }
 
-.d button {
-	background-color: black;
-	border-radius: 10px;
-	border: none;
-	float: left;
-	padding-top: 7px;
+.search {
+	padding-left: 550px;
+	padding-bottom: 215px;
 }
 
-.d button:before {
-	content: url(../img/heart.png);
-}
-
-.no_interval{
-	background-color: black;
-	height: 45px;
-	width: 175px;
-	margin-top: 45px;
-	border-radius: 10px;
-}
 
 
 /* NAVIGATION */

@@ -611,26 +611,12 @@ header {
 	padding-left: 400px;
 }
 
-.pic {
-	display: inline;
-	position: absolute;
-	top: 10px;
-	left: 20px;
+
+#lang_search {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 35px;  
 }
-
-.language {
-	padding-right: 35px;
-	width: 30;
-	height: 30%;
-	padding-left: 300px;
-}
-
-.search {
-	padding-left: 550px;
-	padding-bottom: 215px;
-}
-
-
 
 /* NAVIGATION */
 
@@ -642,6 +628,8 @@ header {
 	padding-left: 50px;
 	text-transform: uppercase;
 }
+
+
 
 .right_box {
 	display: flex;

@@ -599,8 +599,17 @@ header {
 	display: none;
 }
 
+
+.pic{
+	position: initial;
+	padding-left: 20px;
+}
+
 .cover_adopt {
-	display: block;
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+
 }
 
 .menu_adopt {
@@ -608,14 +617,19 @@ header {
 	color: black;
 	font-size: 70px;
 	font-family: "Geometr415 Blk BT";
-	padding-left: 400px;
+	display: flex;
+	justify-content: space-around;
+	
 }
 
+#menu_lang_search{
+	width: 80%;
+	}
 
 #lang_search {
 	display: flex;
-	justify-content: flex-end;
-	padding-right: 35px;  
+	justify-content: space-around;
+	
 }
 
 /* NAVIGATION */

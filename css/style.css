@@ -580,7 +580,7 @@ h5 {
 
 
 @media screen and (max-width: 1024px) {
-	html  {
+html  {
 	width: 800px;
 	}
 	
@@ -588,10 +588,23 @@ header {
 	height: 215px;
 }
 
+.topmenu, .word_1, .word_2 {
+	display: none;
+}
+
 .black_box {
-	width: 55px;
-	height: 50px;
-	display: block;
+	display:none;
+} 
+
+.cover {
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+	padding-right: 35px;
+}
+
+.language {
+	padding-right: 35px;
 }
 
 .pic {
@@ -600,27 +613,6 @@ header {
 	top: 10px;
 	left: 20px;
 }
-
-.topmenu, .word_1, .word_2 {
-	display: none;
-}
-
-.cover {
-	display: flex;
-  	align-items: flex-start;
-	/* position: relative; */
-	height: 170px;
-}
-
-.language {
-	order: -1;
-}
-
-.d {
-	order: +1;
-}
-
-
 
 
 

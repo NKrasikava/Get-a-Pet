@@ -335,12 +335,7 @@ h3 {
 }
 
 .photoset {
-	font-size: 30px;
-	text-align: center;
-	text-transform: uppercase;
-	background-color: #993333;
-	width: 100%;
-	height: 175px;
+	display: none;
 }
 
 #friend {
@@ -599,6 +594,7 @@ h5 {
 	}
 
 	#gallery {
+		/* width: 100%; */
 		height: 175px;
 		background-image: none;
 		box-shadow: none;
@@ -615,6 +611,7 @@ h5 {
 		background-color: #993333;
 		width: 100%;
 		height: 175px;
+		display: block;
 	}
 	
 	.container {

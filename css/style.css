@@ -812,11 +812,12 @@ html  {
 	}
 
 header {
-		height: 150px;
+		height: 170px;
 	}
 	
 .pic {
 		padding-left: 5px;
+		padding-top: 10px;
 		height: 150px;
 		width: 150px;
 	}
@@ -872,117 +873,47 @@ a.rollover_eng:hover {
 	background-repeat: no-repeat;
 	 }
 	
-	
-	 /* SEARCH */
-	
-	.search input {
-		background-color: black;
-		height: 25px;
-		width: 110px;
-		border-radius: 10px;
-		border:none;
-		font-family: "Geometr415 Blk BT";
-		font-size: 20px;
-		color:white;
-		padding-top: 7px;
-		padding-left: 10px;
-	}
-	
-	.search button {
-		background-color: black;
-		border-radius: 10px;
-		border: none;
-		float: left;
-		padding-top: 7px;
-	}
-	
-	.search button:before {
-		content: url(../img/heart.png);
-	}
-	
 	.no_interval{
-		background-color: black;
-		height: 45px;
-		width: 175px;
-		margin-top: 45px;
-		border-radius: 10px;
+		margin-top: 35px;
 	}
 	
-	.search
+	.slider {
+		height: 235px;
+		margin-top: 0;
+	}
 
-	
 	#gallery {
-		height: 460px;
-		background-image: none;
-		box-shadow: none;
+		width: 640px;
+		height: 360px;
 	}
 		
 	#photo_dog {
-		background-image: url(../img/adopt.jpg);
-		height: 460px;
-		width: 100%;
-	}
-	
-	.block {
-		display: none;
+	max-width: 640px;
+	max-height: 312px;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	}
 		
 	.photoset {
-		background-color: #993333;
-		width: 100%;
-		height: 60px;
-		display: block;
-		padding-bottom: 10px;
+		height: 50px;
 	}
-		
-	h3 {
-		display: none;
-	}
-		
-	.photoset a{
-		text-decoration: none;
-	}
-	
-	.photoset a h1 {
-		color: white;
-		font-size: 30px;
-		text-align: left;
-		padding-left: 40px;
-	}
-	
-	.photoset:hover {
-		background-color: #dea254;
-	}
-	
-	.container {
-		display: none;
-	}
-	
+
 	.news:first-child {
-		height: 80px;
-		background-color: #5b6272;
+		height: 60px;
 	}
 	
 	.news:first-child:hover {
-		height: 80px;
-		background-color: #dea254;
+		height: 60px;
 	}
 	
-	.news a {
-		text-decoration: none;
-	}
 	
 	h1 {
-		font-size: 30px;
 		padding-top: 25px;
-		text-align: left;
-		padding-left: 40px;
-		color: white;
 	}
 	
 	h4 {
 		padding: 20px 0 20px 0;
-		font-size: 24px;
+		font-size: 20px;
 		line-height: 35px;
 		float: right;
 	}
@@ -990,67 +921,33 @@ a.rollover_eng:hover {
 	p {
 		padding: 20px 0 35px 0;
 		line-height: 28px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	
-	.arrow {
-		padding-top: 250px;
+.theme img {
+	max-width: 200px;
+	max-height: 150px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+footer {
+		height: 300px;	
 	}
-	
-	footer {
-		font-family: "VerdanaB";
-		height: 300px;
-		display: flex;
-		flex-direction: column;		
+
+h5 {
+		font-size: 16px;
 	}
-	
-	.footer_nav {
-		display: flex;
-		flex-direction: column;
-	}
-	
-	h5 {
-		font-size: 18px;
-		padding: 0;
-	}
-	
-	.footer_menu span {
-		display: none;
-	}
+
+.social a img {
+		max-width: 40px;
+		max-height: 40px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding-right: 25px;
+}
 		
-	.social {
-		background-color: black;
-		padding-right: 40px;
-		margin-bottom: 30px;
-	}
-	
-	.without_copy {
-		display: flex;
-		justify-content: space-around;
-		padding: 5px 40px 20px 40px;
-	}
-	
-	#dynamic-input {
-		margin-top: 15px;
-		border-radius: 15px;
-		font-size: 14px;
-		padding-left: 5px;
-		margin-right: 40px; 
-	}
-	
-	.bottom {
-		width: 100%;
-		display: block;
-		text-align: right;
-		padding: 0px 0 30px 0;
-	}
-	
-	.copyright p {
-		font-size: 12px;
-		padding-top: 15px;
-	}
-	
-	.hamburger {
+.hamburger {
 		background-color: black;
 		color: white;
 		border-radius: 5px;
@@ -1059,7 +956,7 @@ a.rollover_eng:hover {
 		margin-top: 10px;
 	}
 	
-	.hamburger:hover {
+.hamburger:hover {
 		background-color: #993333;
 	}
-	}
+}

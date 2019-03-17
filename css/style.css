@@ -522,7 +522,7 @@ html  {
 html  {
 		 width: 1024px;
 	}
-
+	
 #gallery {
 		height: 175px;
 	}
@@ -578,14 +578,189 @@ h5 {
 }
 
 
+
 @media screen and (max-width: 1024px) {
 	html  {
 	width: 800px;
 	}
 	
-	.cover, .topmenu {
-		display: none;
+header {
+	height: 215px;
+}
+
+.black_box {
+	width: 550px;
+	height: 50px;
+	display: block;
+    margin: 165px 0 0 365px; 
+}
+
+.pic {
+	display: inline;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+h2 {
+	font-family: "Geometr415 Blk BT";
+	font-size: 40px;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.word_1, .word_2 {
+	padding-top: 40px;
+}
+
+.cover {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	height: 170px;
+}
+
+
+/* LANGUAGE BUTTONS */
+
+.language {
+	padding-top: 35px;
+}
+
+/* Bel */
+a.rollover_bel {
+	background: url(../img/Bel.png);
+	display: inline-block;
+	width: 60px;
+	height: 62px;
+ }
+  a.rollover_bel:hover {
+	background: url(../img/Bel_2.png);
+ }
+
+/* Rus */
+ a.rollover_rus {
+	background: url(../img/Rus.png);
+	display: inline-block;
+	width: 60px;
+	height: 62px;
+ }
+  a.rollover_rus:hover {
+	background: url(../img/Rus_2.png);
+ }
+
+/* Eng */
+ a.rollover_eng {
+	background: url(../img/Eng.png);
+	display: inline-block;
+	width: 60px;
+	height: 62px;
+ }
+  a.rollover_eng:hover {
+	background: url(../img/Eng_2.png);
+ }
+
+
+ /* SEARCH */
+
+.d input {
+	background-color: black;
+	height: 25px;
+	width: 110px;
+	border-radius: 10px;
+	border:none;
+	font-family: "Geometr415 Blk BT";
+	font-size: 20px;
+	color:white;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+
+.d button {
+	background-color: black;
+	border-radius: 10px;
+	border: none;
+	float: left;
+	padding-top: 7px;
+}
+
+.d button:before {
+	content: url(../img/heart.png);
+}
+
+.no_interval{
+	background-color: black;
+	height: 45px;
+	width: 175px;
+	margin-top: 45px;
+	border-radius: 10px;
+}
+
+
+/* NAVIGATION */
+
+.left_box {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	float: left;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+
+.right_box {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	float: right;
+	padding-right: 50px;
+	text-transform: uppercase;
+}
+
+.left {
+    width: 80px;
+    border: 2px solid white;
+}
+
+.right {
+	width: 80px;
+    border: 2px solid white;
+}
+
+li {
+	position: relative;
+	margin: auto;
+	font-family: "Geometr415 Blk BT";
+	font-size: 22px;
+	border-top: 2px;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	transition: .1s linear;
+}
+
+.left li a:hover {
+	font-size: 28px;
+	color: #993333;
+}
+
+.right li a:hover {
+	font-size: 28px;
+	color: #993333;
+}
+
+main {
+	width: 100%;
+	margin-top: 0px;
 	}
+
+	
+
+
 	
 	.slider {
 		height: 295px;
@@ -663,7 +838,7 @@ h5 {
 		line-height: 28px;
 		font-size: 18px;
 	}
-	
+
 	.arrow {
 		padding-top: 250px;
 	}

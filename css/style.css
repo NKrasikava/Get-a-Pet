@@ -589,81 +589,40 @@ header {
 }
 
 .black_box {
-	width: 550px;
+	width: 55px;
 	height: 50px;
 	display: block;
-    margin: 165px 0 0 365px; 
 }
 
 .pic {
 	display: inline;
 	position:absolute;
-	top: 0;
-	left: 0;
+	top: 10px;
+	left: 20px;
 }
 
-h2 {
-	font-family: "Geometr415 Blk BT";
-	font-size: 40px;
-	color: black;
-	display: flex;
-	justify-content: space-between;
-	position: relative;
-}
-
-.word_1, .word_2 {
-	padding-top: 40px;
+.topmenu, .word_1, .word_2 {
+	display: none;
 }
 
 .cover {
 	display: flex;
-	justify-content: space-around;
-	position: relative;
+  	align-items: flex-start;
+	/* position: relative; */
 	height: 170px;
 }
 
-
-/* LANGUAGE BUTTONS */
-
 .language {
-	padding-top: 35px;
+	order: -1;
 }
 
-/* Bel */
-a.rollover_bel {
-	background: url(../img/Bel.png);
-	display: inline-block;
-	width: 60px;
-	height: 62px;
- }
-  a.rollover_bel:hover {
-	background: url(../img/Bel_2.png);
- }
-
-/* Rus */
- a.rollover_rus {
-	background: url(../img/Rus.png);
-	display: inline-block;
-	width: 60px;
-	height: 62px;
- }
-  a.rollover_rus:hover {
-	background: url(../img/Rus_2.png);
- }
-
-/* Eng */
- a.rollover_eng {
-	background: url(../img/Eng.png);
-	display: inline-block;
-	width: 60px;
-	height: 62px;
- }
-  a.rollover_eng:hover {
-	background: url(../img/Eng_2.png);
- }
+.d {
+	order: +1;
+}
 
 
- /* SEARCH */
+
+
 
 .d input {
 	background-color: black;

@@ -819,8 +819,8 @@ h5 {
 }
 	
 .social {
-	padding-right: 40px;
-	margin-bottom: 30px;
+	padding-right: 10px;
+	margin-top: 30px;
 }
 
 .without_copy {
@@ -834,7 +834,12 @@ h5 {
 	border-radius: 15px;
 	font-size: 14px;
 	padding-left: 5px;
-	margin-right: 40px; 
+	margin-right: 10px; 
+}
+
+label {
+	font-size: 14px;
+	padding-right: 10px;
 }
 
 .bottom {
@@ -1004,12 +1009,13 @@ h5 {
 		font-size: 16px;
 	}
 
-/* .social a {
-		max-width: 40px;
-		max-height: 40px;
+.social a {
+		max-width: 27px;
+		max-height: 27px;
 		background-size: 100%;
-		padding-right: 25px;
-} */
+		margin-top: 30px;
+		padding-right: 15px;
+}
 		
 .hamburger {
 		background-color: black;

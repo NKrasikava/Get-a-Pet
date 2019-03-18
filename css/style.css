@@ -359,12 +359,18 @@ h3 {
 	padding: 15px 10px;
 }
 
+
 /* MAIN PAGE */
 
 .news:first-child {
 	background-color:black;
 	height: 80px;
 	width: 100%;
+}
+
+.news:first-child:hover {
+	height: 80px;
+	background-color: #5b6272;
 }
 
 .news a {
@@ -416,12 +422,16 @@ p {
 }
 
 .arrow {
-    display: block;
-    width: 60px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
 	height: 62px;
 	padding-right: 70px;
-	padding-top: 155px;
 }
+
+.arrow:hover {
+	background-image: url(../img/arrow_2.png);
+ }
+
 
 	 
 	 /* FOOTER */
@@ -459,9 +469,14 @@ h5 {
 	text-transform: uppercase;
 }
 
+.footer_menu span {
+	padding-top: 30px;
+	line-height: 10px;
+}
+
 .footer_menu a {
 	padding-top: 30px;
-	line-height: 1px;
+	line-height: 10px;
 }
 
 .social {
@@ -731,8 +746,8 @@ p {
 	font-size: 18px;
 }
 
-.arrow {
-	padding-top: 250px;
+.n {
+	width: 46%;
 }
 
 footer {
@@ -924,6 +939,10 @@ a.rollover_eng:hover {
 		font-size: 16px;
 	}
 	
+	.n {
+		width: 48%;
+	}
+
 .theme img {
 	max-width: 200px;
 	max-height: 150px;

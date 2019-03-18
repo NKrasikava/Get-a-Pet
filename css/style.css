@@ -367,7 +367,9 @@ h3 {
 }
 
 .dog {
-	padding: 15px 10px;
+	padding: 15px 0;
+	width: 200px;
+	height: 190px;
 }
 
 
@@ -490,9 +492,43 @@ h5 {
 	line-height: 10px;
 }
 
-.social {
-    background-color: black;
+.social a {
+	display: inline-block;
+	width: 65px;
+	height: 63px;
+}
+
+.social_fb {
+	background-image: url(../img/facebook.png);
 	padding-top: 20px;
+	background-repeat: no-repeat;
+
+}
+
+.social_fb:hover {
+	background-image: url(../img/facebook_2.png);
+}
+
+.social_vb {
+	background-image: url(../img/viber.png);
+	padding-top: 20px;
+	background-repeat: no-repeat;
+
+}
+
+.social_vb:hover {
+	background-image: url(../img/viber_2.png);
+}
+
+.social_inst {
+	background-image: url(../img/insta.png);
+	padding-top: 20px;
+	background-repeat: no-repeat;
+
+}
+
+.social_inst:hover {
+	background-image: url(../img/insta_2.png);
 }
 
 .bottom {
@@ -783,7 +819,6 @@ h5 {
 }
 	
 .social {
-	background-color: black;
 	padding-right: 40px;
 	margin-bottom: 30px;
 }
@@ -969,13 +1004,12 @@ h5 {
 		font-size: 16px;
 	}
 
-.social a img {
+/* .social a {
 		max-width: 40px;
 		max-height: 40px;
 		background-size: 100%;
-		background-repeat: no-repeat;
 		padding-right: 25px;
-}
+} */
 		
 .hamburger {
 		background-color: black;

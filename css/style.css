@@ -26,7 +26,8 @@ html {
     font-size: 18px;
     font-family: "Verdana", sans-serif;
 	background-color: black;
-    margin: auto;
+	margin: auto;
+	overflow-x: hidden;
 }
 
 
@@ -177,7 +178,7 @@ a.rollover_bel {
 	text-transform: uppercase;
 }
 
-.left {
+.left_box li {
     width: 80px;
     border: 2px solid white;
 }
@@ -201,7 +202,7 @@ li a {
 	transition: .1s linear;
 }
 
-.left li a:hover {
+.left_box li a:hover {
 	font-size: 28px;
 	color: #993333;
 }
@@ -341,7 +342,7 @@ h3 {
 	display: none;
 }
 
-#friend {
+.friends {
 	padding-left: 15px;
 }
 
@@ -615,7 +616,7 @@ h3 {
 	font-size: 26px;
 	}
 
-#friend {
+.friends {
 	padding-left: 15px;
 	width: 25px;
 	height: 23px;

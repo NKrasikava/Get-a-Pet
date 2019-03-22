@@ -180,10 +180,11 @@ a.rollover_bel {
 
 .left_box li {
     width: 80px;
-    border: 2px solid white;
+	border: 2px solid white;
+	box-sizing: border-box;
 }
 
-.right {
+.right_box li {
 	width: 80px;
     border: 2px solid white;
 }
@@ -207,7 +208,7 @@ li a {
 	color: #993333;
 }
 
-.right li a:hover {
+.right_box li a:hover {
 	font-size: 28px;
 	color: #993333;
 }
@@ -875,27 +876,27 @@ label {
 
 @media screen and (max-width: 800px) {
 html  {
-		width: 640px;
+	width: 640px;
 	}
 
 header {
-		height: 170px;
+	height: 170px;
 	}
 	
 .pic {
-		padding-left: 5px;
-		padding-top: 10px;
-		height: 150px;
-		width: 150px;
+	padding-left: 5px;
+	padding-top: 10px;
+	height: 150px;
+	width: 150px;
 	}
 	
 .pic img {
-		max-width: 100%;
-		max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 	}
 
 .menu_adopt {
-		font-size: 50px;	
+	font-size: 50px;	
 	}
 
 a.rollover_bel {
@@ -940,59 +941,59 @@ a.rollover_eng:hover {
 	background-repeat: no-repeat;
 	 }
 	
-	.no_interval{
-		margin-top: 35px;
+.no_interval{
+	margin-top: 35px;
 	}
 	
-	.slider {
-		height: 235px;
-		margin-top: 0;
+.slider {
+	height: 235px;
+	margin-top: 0;
 	}
 
-	#gallery {
-		width: 640px;
-		height: 360px;
+#gallery {
+	width: 640px;
+	height: 360px;
 	}
 		
-	#photo_dog {
+#photo_dog {
 	max-width: 640px;
 	max-height: 312px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	}
 		
-	.photoset {
-		height: 50px;
+.photoset {
+	height: 50px;
 	}
 
-	.news:first-child {
-		height: 60px;
+.news:first-child {
+	height: 60px;
 	}
 	
-	.news:first-child:hover {
-		height: 60px;
+.news:first-child:hover {
+	height: 60px;
 	}
 	
 	
-	h1 {
-		padding-top: 25px;
+h1 {
+	padding-top: 25px;
 	}
 	
-	h4 {
-		padding: 20px 0 20px 0;
-		font-size: 20px;
-		line-height: 35px;
-		float: right;
+h4 {
+	padding: 20px 0 20px 0;
+	font-size: 20px;
+	line-height: 35px;
+	float: right;
 	}
 	
-	p {
-		padding: 20px 0 35px 0;
-		line-height: 28px;
-		font-size: 16px;
+p {
+	padding: 20px 0 35px 0;
+	line-height: 28px;
+	font-size: 16px;
 	}
 	
-	.n {
-		width: 48%;
+.n {
+	width: 48%;
 	}
 
 .theme img {

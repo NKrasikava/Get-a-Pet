@@ -218,6 +218,82 @@ main {
 	margin-top: 0px;
 	}
 
+	/* BURGER */
+
+#menuToggle {
+	display: contents;
+	overflow: hidden;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#menuToggle:hover {
+	cursor: pointer;
+}
+#menuToggle:hover span{
+	background: #4e4e4e; 
+}
+#menuToggle span{
+	width: 30px;
+	height: 5px;
+	margin-bottom: 5px;
+	background: #85c5f3;
+	border-radius: 4px;
+	transition: .2s ease;
+}
+#menuToggle span:last-child {
+	margin-bottom: 0;
+}
+
+
+nav {
+	margin-right: 10%;
+	transition: .5s ease;
+	display: none;
+	position:relative;
+	z-index: 1000;
+}
+nav>ul {
+	display: flex;
+	justify-content: space-around;
+}
+nav>ul>li {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	padding: 0 30px;
+	transition: .3s ease;
+}
+nav a {
+	text-decoration: none;
+	font-family: 'MADEEvolve';
+	font-size: 1.2em;
+	color: #000;
+	width: 100%;
+    height: 100%;
+	display: flex;
+	align-items: center;
+}
+.under_nav_space{
+	width: 100%;
+	height: 100px;
+}
+#hide_menu {
+	display: none;
+	width: 100%;
+	background: none;
+	padding: 0;		
+}
+#hide_menu img{
+	width: 70px;
+	height: 70px;
+	display: block;
+	transform: rotate(180deg);
+	margin: 10px auto;
+}
+.hide_menu img:hover {
+	cursor: pointer;
+}
 
 /* SLIDER */
 
@@ -595,6 +671,48 @@ h5 {
 .copyright p {
 	font-size: 14px;
 	}
+
+
+
+	nav {
+		width: 100%;
+		position:absolute;
+		top: -999px;
+		display: none;
+	}
+	nav ul{
+		display: block;		
+		font-size: 1.1em;
+	}
+	#hide_menu{
+		display: block;
+	}
+	nav ul li{
+		display: block;
+		text-align: center;
+		background-color: #434141;
+		border-top: 3px solid #605e5e;
+		height: 50px;
+		padding: 0;
+	}
+	nav ul li a{
+		height: 100%;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1em;
+	}
+	.fixed_top_menu li{
+		height: 50px;
+	}
+	#menuToggle {
+		display: flex;
+	}
+	.adaptive_menu_show{
+		display: block;
+	}
+
 }
 
 
@@ -812,6 +930,16 @@ label {
 .hamburger:hover {
 	background-color: #993333;
 }
+
+
+
+nav {
+	width: 100%;
+	position:absolute;
+	/* top: -999px; */
+	top: 0px;
+}
+
 }
 
 

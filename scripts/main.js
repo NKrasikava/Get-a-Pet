@@ -31,4 +31,46 @@ document.addEventListener('DOMContentLoaded', function () {
             menuBurger.addClass('open');
         };
     })
+
+    
+    // GALLERY - Slick plugin
+    
+        $('.container').slick({
+            centerMode: true,
+            // centerPadding: "270px",
+            adaptiveHeight: "true",
+            slidesToShow: 3,
+            centerMode: "true",
+            adaptiveHeight: "false",
+            variableWidth: true,
+
+            prevArrow:"<img class='dog_arrow' >",
+            nextArrow:"<img class='dog_arrow' >",
+
+            centerPadding: "50%",
+            
+            responsive: [
+              {
+                breakpoint: 1180,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: "270px",
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 1024,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: "270px",
+                  slidesToShow: 1
+                    }
+                },
+     
+            ]
+        });
+
+
 }, false);

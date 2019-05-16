@@ -442,7 +442,7 @@ h3 {
 
 .container img {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 10%;
 }
 
 .dog_arrow {
@@ -845,6 +845,7 @@ h3 {
 
 .container {
 	display: none;
+	width: 90%;
 }
 
 .news:first-child {
@@ -1091,4 +1092,7 @@ h5 {
 		margin-top: 30px;
 		padding-right: 15px;
 }
+
+
+
 }

@@ -23,8 +23,8 @@
 html {
 	width: 1346px;
 	height: auto;
-    font-size: 18px;
-    font-family: "Verdana", sans-serif;
+  font-size: 18px;
+  font-family: "Verdana", sans-serif;
 	background-color: black;
 	margin: auto;
 	overflow-x: hidden;
@@ -126,14 +126,14 @@ a.rollover_bel {
 
 .search input {
 	background-color: black;
-	height: 25px;
+	height: 30px;
 	width: 110px;
 	border-radius: 10px;
 	border:none;
 	font-family: "Geometr415 Blk BT";
 	font-size: 20px;
 	color:white;
-	padding-top: 7px;
+	padding-top: 10px;
 	padding-left: 10px;
 }
 
@@ -216,6 +216,150 @@ li a {
 main {
 	width: 100%;
 	margin-top: 0px;
+	}
+
+
+	/* BURGER */
+  
+a {
+	text-decoration: none;
+  }
+  
+body {
+	position: relative;
+  }
+	
+#menu-burger {
+	width: 50px;
+	height: 50px;
+	background: black;
+	
+	border-radius: 50%;
+	position: absolute;
+	top: 31px;
+	right: 5%;
+	cursor: pointer;
+	z-index: 200;
+  }
+  
+#menu-burger .menu-icon {
+	display: block;
+	height: 2px;
+	width: 18px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -9px;
+	margin-top: -1px;
+  }
+  
+#menu-burger .menu-icon:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 18px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -9px;
+	margin-top: -5px;
+	transition: 0.35s;
+  }
+  
+#menu-burger .menu-icon:before {
+	content: ' ';
+	display: block;
+	height: 2px;
+	width: 18px;
+	background: #fff;
+	  position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -9px;
+	margin-top: 4px;
+	transition: 0.35s;
+  }
+  
+#menu-burger .menu-icon.open:before{
+	transform: rotate(45deg);
+	margin-top: -1px;
+	background: #000;
+  }
+  
+#menu-burger .menu-icon.open:after{
+	transform: rotate(-45deg);
+	margin-top: -1px;
+	background: #000;
+  }
+  
+#menu-burger.open {
+	background: #fff;
+  }
+  
+#menu-burger .menu-icon.open {
+	background: #fff;
+  }
+  
+#overlay-menu {
+	margin-top: -20px;
+	position: fixed;
+	background: #000;
+	height: 100%;
+	width: 100%;
+	opacity: 0.85;
+	z-index: 100; 
+	right: -100%;
+	transition: 0.35s;
+  }
+  
+#overlay-menu.open {
+	right: 0%;
+  }
+  
+#overlay-menu nav {
+	height: 60%;
+	position: relative;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	font-size: 32px;
+	text-align: center;
+  }
+  
+#overlay-menu nav ul {
+	display: inline-block;
+	margin: auto;
+	height: 100%;
+  }
+  
+#overlay-menu nav ul li {
+	position: relative;
+	color: #fff;
+	margin-bottom: 20px;
+  }
+  
+#overlay-menu nav ul li a {
+	color: #fff;
+	font-size:1.8em;
+	line-height: 50px;
+  }
+  
+#overlay-menu nav ul li a:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	height: 3px;
+	width: 0%;
+	background: #fff;
+	transition: 0.25s;
+  }
+  
+#overlay-menu nav ul li a:hover:after {
+	width: 100%;
 	}
 
 
@@ -391,7 +535,6 @@ p {
 	background-image: url(../img/arrow_2.png);
  }
 
-
 	 
 	 /* FOOTER */
 
@@ -478,12 +621,12 @@ h5 {
 }
 
 .bottom {
-    width: 100%;
-    background-color: black;
+  width: 100%;
+  background-color: black;
 	display: flex;
 	justify-content: space-around;
-    text-align: left;
-    padding: 30px 0;
+  text-align: left;
+  padding: 30px 0;
 }
 
 label {
@@ -491,10 +634,10 @@ label {
 }
 
 #dynamic-input {
-    margin-top: 15px;
-    border-radius: 15px;
-    width: 200px;
-    height: 40px;
+  margin-top: 15px;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
 	font-size: 14px;
 	text-align: left;
 	padding-left: 70px;
@@ -630,12 +773,12 @@ header {
 }
 
 .menu_adopt {
-	display: block;
 	color: black;
 	font-size: 70px;
 	font-family: "Geometr415 Blk BT";
 	display: flex;
-	justify-content: space-around;	
+	justify-content: space-around;
+	padding-left: 20px;
 }
 
 #menu_lang_search {
@@ -799,19 +942,6 @@ label {
 	font-size: 12px;
 	padding-top: 15px;
 }
-
-.hamburger {
-	background-color: black;
-	color: white;
-	border-radius: 5px;
-	font-size: 0.8em;
-	height: 1em;
-	margin-top: 10px;
-}
-
-.hamburger:hover {
-	background-color: #993333;
-}
 }
 
 
@@ -918,7 +1048,6 @@ a.rollover_eng:hover {
 	height: 60px;
 	}
 	
-	
 h1 {
 	padding-top: 25px;
 	}
@@ -962,17 +1091,4 @@ h5 {
 		margin-top: 30px;
 		padding-right: 15px;
 }
-		
-.hamburger {
-		background-color: black;
-		color: white;
-		border-radius: 5px;
-		font-size: 0.8em;
-		height: 1em;
-		margin-top: 10px;
-	}
-	
-.hamburger:hover {
-		background-color: #993333;
-	}
 }

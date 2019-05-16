@@ -13,22 +13,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }    
 }, false);
 
-
-
-// Adaptive top menu 
-$('#menuToggle').click(function(){
-    if ("none" === $('nav').css("display"))
-    {
-        console.log ("show nemu");
-        $('nav').css("display", "block")
-    }
-    else{
-        $('nav').css("display", "none")
-    }
-})
-
-
-$('#hide_menu').click(function(){
-   console.log ("hide nemu");
-        $('nav').css("display", "none")
-})

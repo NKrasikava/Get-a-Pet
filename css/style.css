@@ -391,6 +391,7 @@ body {
 	}
 
 
+
 /* GALLERY */
 
 #gallery {
@@ -466,11 +467,11 @@ h3 {
 
 /* .dog:hover {
 	padding: 15px 0;
-	width: 200px;
-	height: 190px;
+	width: 150;
+	height: 150;
+	border-radius: 50%;
 	opacity: 0.4;
 	transition: .5s linear;
-  transform: scale(1.05);
 } */
 
 /* MAIN PAGE */
